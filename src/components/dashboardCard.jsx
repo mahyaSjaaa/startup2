@@ -11,6 +11,7 @@ export default function DashCard() {
                         <p className={`${interSB.className} text-[22px]`}>Rp. 2,455,000</p>
                     </div>
                     <p className="flex items-center">O</p>
+                    <p>ganti</p>
                 </div>
                 <p className={`${inter.className} text-gray-500 text-[14px] mt-4`}> <span className="text-[#00D4A0]">+12%</span> dari kemarin</p>
             </div>
