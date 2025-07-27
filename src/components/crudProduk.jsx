@@ -69,6 +69,7 @@ export default function CrudProduk({onSubmit, editData}) {
             const {data, error} = await supabase.from('produk').select().eq('produk', selectRestok)
             if(data.length != 0){
                 setSatuan(data[0].satuan)
+                setSatuanPartai(data[0].satuanPartai)
             }
         }
     fetchRestok()
